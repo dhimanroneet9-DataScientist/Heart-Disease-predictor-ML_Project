@@ -2,7 +2,7 @@ import joblib
 import streamlit as st
 from preprocess import build_features
 
-st.set_page_config(page_title="Heart Disease Risk Predictor", page_icon="❤️", layout="centered")
+st.set_page_config(page_title="Heart Disease Risk Predictor by Roneet", page_icon="❤️", layout="centered")
 
 @st.cache_resource
 def load_artifacts():
